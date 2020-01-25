@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8172562021711886396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8172562021711886398}
+  - component: {fileID: 8172562021711886397}
+  m_Layer: 0
+  m_Name: Starting CampainManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8172562021711886398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172562021711886396}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 675.6088, y: 314.4838, z: -11.633423}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8172562021711886397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172562021711886396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e23f4df7d6bcf74398593608d97f50d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMaxHealth: {fileID: 11400000, guid: e475ab78ff6f0e040abed6d8ce4cb13a, type: 2}
+  playerHealth: {fileID: 11400000, guid: 7d43265c7dc6c2242b81bc4129c6e51c, type: 2}
+  PlayerAC: {fileID: 11400000, guid: 3d6bf8f2a688d6046b5518ac8ee77188, type: 2}
+  Campaingstarted: {fileID: 11400000, guid: b636499713eaeb142a4ce8de73ffe429, type: 2}
+  playerInventory: {fileID: 11400000, guid: ae6b996a685535741925f5bfda3ae290, type: 2}
+  AcolyteSet: {fileID: 11400000, guid: df414b9f737c3db4f943e5c369f66fc4, type: 2}
+  BrawlerSet: {fileID: 11400000, guid: 167e220373e97fd4d953bf46b938995d, type: 2}
+  CharlatanSet: {fileID: 11400000, guid: df4bdecad84f89147a0e13df20dfd5ff, type: 2}
+  CriminalSet: {fileID: 11400000, guid: 41bcd92d1becfaf40a160a7ca6d02956, type: 2}
+  EntertainerSet: {fileID: 11400000, guid: a90bde8b8bd81844da7c1dc7706e0aa1, type: 2}
+  ExcomunicatedPolitionSet: {fileID: 11400000, guid: d789544ef1fbe5c4f9470c298bc7dd5a,
+    type: 2}
+  FolkHeroSet: {fileID: 11400000, guid: d6ed91d66e113a64ba31b75cc6c93722, type: 2}
+  GuildArtisanSet: {fileID: 11400000, guid: 86623b26a20894746a35794cc4b90a4d, type: 2}
+  HermitSet: {fileID: 11400000, guid: 200247a5c4d5bb142a4c8441984947b4, type: 2}
+  HopfulDoctorSet: {fileID: 11400000, guid: 71056adb93875ab40863fba8291a54d7, type: 2}
+  HunterSet: {fileID: 11400000, guid: 75f80422735897747b994390d87854a9, type: 2}
+  MaraderSet: {fileID: 11400000, guid: 2e9e89d33410f76468c742b425f8a97e, type: 2}
+  NobleSet: {fileID: 11400000, guid: ca2cbe3e89c4fd241bf79bd561058bef, type: 2}
+  OutlanderSet: {fileID: 11400000, guid: bbdb8008b2faf954b8bf15a6df6759fa, type: 2}
+  PotionMixer: {fileID: 11400000, guid: 76680fe7192c14c439f50262a43d9540, type: 2}
+  RecoveringAssassingSet: {fileID: 11400000, guid: 6445ad16fa3926245a5382b2ce942ac6,
+    type: 2}
+  SageSet: {fileID: 11400000, guid: 076ba2ea4a134da46aff4e75d175520b, type: 2}
+  SailorSet: {fileID: 11400000, guid: a96de925a8cee324daa8e1c71be19921, type: 2}
+  SoldierSet: {fileID: 11400000, guid: 69ad8cd35c1bbc543a2b4e007ea77603, type: 2}
+  UrchinSet: {fileID: 11400000, guid: f16c316d2a6ba3947bf2dca1b07740ce, type: 2}

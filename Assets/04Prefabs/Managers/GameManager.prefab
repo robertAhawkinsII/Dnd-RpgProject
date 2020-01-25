@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4697572295459663828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4697572295459663826}
+  - component: {fileID: 4697572295459663824}
+  - component: {fileID: 3155706905881384384}
+  - component: {fileID: 4015752476132526806}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4697572295459663826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4697572295459663828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4697572295459663824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4697572295459663828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 899edc8caaebaa94c8b0fbc20a1fc215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curEncounter: 0
+  Encounters:
+  - encounterName: GiantWorms
+    maxAmountEnemies: 5
+    possibleEncounters:
+    - {fileID: 8499110992387613730, guid: 8540a88646aee2f4fa4f8282a6b19165, type: 3}
+    BattleScene: TestBattle
+  playerCharacter: {fileID: 8843943506449633193, guid: ea975c7c601df3b4fab3c415316f49a4,
+    type: 3}
+  nextPlayerPosition: {x: 0, y: 1.36, z: 0}
+  lastPlayerPosition: {x: 0, y: 0, z: 0}
+  SceneToLoad: 
+  LastScene: 
+  gotAttacked: 0
+  enemeyAmount: 0
+  enemiesToBattle: []
+  gameState: 0
+--- !u!114 &3155706905881384384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4697572295459663828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c866d2a65bfe474881d03040c08886c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PartyLimit: 4
+  partyNumber: 0
+  PartyMembers: []
+--- !u!114 &4015752476132526806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4697572295459663828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8539b07508f8e6148bd54f528585dca4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
