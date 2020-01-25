@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17aa67ced6ee2a948b5c4bad0a0ba323, type: 3}
+  m_Name: PlayerEquipment
+  m_EditorClassIdentifier: 
+  savePath: /Equipment.Save1
+  dataBase: {fileID: 11400000, guid: 2f0840d289c445e44ae87028a772d1a9, type: 2}
+  type: 1
+  Container:
+    Slots:
+    - AllowedItems: 01000000
+      slotClass: 0000000006000000
+      item:
+        Name: 
+        Id: -1
+        Weight: 0
+        buffs: []
+      amount: 0
+    - AllowedItems: 07000000
+      slotClass: 0000000006000000
+      item:
+        Name: 
+        Id: -1
+        Weight: 0
+        buffs: []
+      amount: 0
+    - AllowedItems: 06000000
+      slotClass: 0000000006000000
+      item:
+        Name: 
+        Id: -1
+        Weight: 0
+        buffs: []
+      amount: 0
+    - AllowedItems: 0200000003000000
+      slotClass: 0000000006000000
+      item:
+        Name: 
+        Id: -1
+        Weight: 0
+        buffs: []
+      amount: 0
+    - AllowedItems: 06000000
+      slotClass: 0000000006000000
+      item:
+        Name: 
+        Id: -1
+        Weight: 0
+        buffs: []
+      amount: 0
+    - AllowedItems: 0200000003000000
+      slotClass: 0000000006000000
+      item:
+        Name: 
+        Id: -1
+        Weight: 0
+        buffs: []
+      amount: 0
+    - AllowedItems: 06000000
+      slotClass: 0000000006000000
+      item:
+        Name: 
+        Id: -1
+        Weight: 0
+        buffs: []
+      amount: 0
+    - AllowedItems: 04000000
+      slotClass: 0000000006000000
+      item:
+        Name: 
+        Id: -1
+        Weight: 0
+        buffs: []
+      amount: 0
+    - AllowedItems: 05000000
+      slotClass: 0000000006000000
+      item:
+        Name: 
+        Id: -1
+        Weight: 0
+        buffs: []
+      amount: 0
+  weight: {fileID: 11400000, guid: 97de20153cdefc04c8c797a4a46357b8, type: 2}
